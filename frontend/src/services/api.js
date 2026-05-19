@@ -1,7 +1,10 @@
 import axios from 'axios'
 
 const API = axios.create({
-  baseURL:'http://localhost:5000/api'
+
+  baseURL:
+  'https://ai-complaint-ese-i9on.onrender.com/api'
+
 })
 
 export default API
